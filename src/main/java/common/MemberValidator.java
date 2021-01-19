@@ -6,7 +6,7 @@ import org.springframework.validation.Validator;
 
 /*
 유효성검증을 위한 클래스정의를 위해 Validator 인터페이스를 구현한다.
-차후 supports(), validat() 두개의 메소드를 오버라이딩 해야한다.
+차후 supports(), validate() 두개의 메소드를 오버라이딩 해야한다.
  */
 public class MemberValidator implements Validator{
 	

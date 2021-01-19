@@ -51,23 +51,27 @@
 			HttpServletRequest로 폼값받기	
 		</a>
 	</li>
+	
 	<li>
       <a href="./form/requestParam.do?id=kosmo&pw=1234&name=홍길동&email=hong@gildong.com"
     		target="_blank">
          @requsetParam 어노테이션으로 파라미터 받기
       </a>
    </li>
+   
    	<li>
       <a href="./form/commandObjGet.do?id=kosmo&pw=1234&name=홍길동&email=hong@gildong.com"
     		target="_blank">
          	커맨드(Command)객체로 한번에 폼값받기
       </a>
    </li>
+   
    <li>
    	<a href="./form/gildong99/코스모" target="_blank">
    		pathVariable 어노테이션으로 폼값받기
    	</a>
    </li>
+	
 	
 	
 	<!-- 컨트롤러 : RequestMappingController.java -->
@@ -146,6 +150,36 @@
 			파일목록보기
 		</a>
 	</li>
+	
+	<!-- 슨생님과 라이브 타이핑 -->
+	<h3>@Controller, @Service, @Repository 어노테이션</h3>
+	<li>
+		<a href="./service/myService.do">바로가기1</a>
+	</li>
+	
+	
+	<!-- 컨트롤러 : TransactionController -->
+	<h3>트랜잭션(Transaction)</h3>
+	<li>
+		<a href="transaction/buyTicketMain.do" target="_blank">
+			티켓구매하기1
+		</a>
+	</li>
+	<!-- 이거 오류난드앙!!!!★★★★★★★★★★★★★★ -->
+	<li><!-- 2단계에서는 1단계의 컨트롤러 부분은 주석처리됨. -->
+		<a href="transaction/buyTicketTpl.do" target="_blank">
+			티켓구매하기2
+		</a>
+	</li>
+	
+	
+	<h2>JSON 사용하기(RestAPI)</h2>
+	<li>
+		<a href="./jsonUse/jsonView.do" target="_blank">
+			@ResponseBody 어노테이션을 이용한 JSON데이터 보기
+		</a>
+	</li>
+	
 	
 </div>
 </body>
